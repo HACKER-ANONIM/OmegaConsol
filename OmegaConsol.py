@@ -15,56 +15,58 @@ from datetime import datetime
 
 def main():
     while True:
-        print( "CONSOL@HACKER-kali@linux" )
+        print( "CONSOL@HACKER-Omega@Consol" )
         print(""" 
-                            ██
-                    
-    ██╗  ██╗ █████╗ ██╗     ██╗
-    ██║ ██╔╝██╔══██╗██║     ██║
-    █████╔╝ ███████║██║     ██║
-    ██╔═██╗ ██╔══██║██║     ██║
-    ██║  ██╗██║  ██║███████╗██‖
-    ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝══╝
-            
-            ██
-             
-    ██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗
-    ██║     ██║████╗  ██║╚██╗ ██╔╝╚██╗██╔╝
-    ██║     ██║██╔██╗ ██║ ╚████╔╝  ╚███╔╝
-    ██║     ██║██║╚██╗██║  ╚██╔╝   ██╔██╗
-    ███████╗██║██║ ╚████║   ██║   ██╔╝ ██╗
-    ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝
+    
+
+  ____   __  __   _____  ____     _      ____   ___   _   _   ____    ____    _     
+ / __ \ |  \/  | |____ |/ ___|   / \    / ___| / _ \ | \ | | / ___| / ___  \ | |    
+| |  | || |\/| | |____ | |  _   / _ \  | |    | | | ||  \| | \___ \ | |  | | | |    
+| |__| || |  | | |____ |_|_| | / ___ \ | |___ | |_| || |\  |  ___) || |__| | | |___ 
+ \____/ |_|  |_| |_____|\____//_/   \_\ \____| \___/ |_| \_| |____/ \ ____ / |_____|
 
 
 
     """)
+        print("omega:help: - список команд")
+        command = input("Omega@consol~# >>> ")
 
-       
-        print("comand list: 1-open:search Enter а потом >>> сылка на сайт ")
-        print("comand list: 2-ping: Enter затем  сылку на сайт")
-        print("comand list: 3-ip_func: ваш IP")
-        print("comand list: 4-wireshark: ")
-        print("comand list: 5-nmap: ")
-        print("comand list: 6-top: процесы" )
-        print("comand list: 7-htop: диспечер задачь")
-        print("comand list: 9-skript:OS  скрипт для быстрого управления OS [В МЕСТО  КОМАНДЫ А ЧИСЛА ДЛЯ ПРОСТОТЫ ]")
-        print("comand list: O exit: выход ")
-        print("comand list: MR.ROBOT")
+        if command == "omega:help:":
+            print("Omega: ","-"*50)
+            print("omega:search: - поиск сайтов по браузеру")
+            print("omega:ping: - отпровляет запрсо чтобы узнать активен ли IP")
+            print("omega:network: -  сетевые параметры")
+            print("omega:omap: - сканирование протов (omega map)")
+            print("omega:top: - процесы" )
+            print("omega:htop: - диспечер задачь")
+            print("omega:skript:OS - скрипт для быстрого управления OS")
+            print("omega:exit: - выход ")
+            
+            
+            print("GitHub: ","-"*50)
+            print("github:wireshark: - запускает иструмент если он установлен")
+            
+            print("corp:","-"*50)
+            print("corp:meltego:#none")
+            print("corp:protonVPN:#none")
+
+            print("p:","-"*50)
+            print("p:MR.ROBOT")
+            print("-"*50)
 
 
 
-        command = input("kali@linux~# >>> ")
 
-        if command == "exit:":
+        if command == "omega:exit:":
             break
 
 
-        if command == "open:search": #1 команда для открытия сылок
+        if command == "omega:search": #1 команда для открытия сылок
             url = input("⟪consol⟫  >>> адрес сайта:" )
             webbrowser.open(url)
             input("\nНажмите Enter для продолжения...")    
              
-        elif command == "ping:": #2 для пинга сылки пороверки активности сайта 
+        elif command == "omega:ping:": #2 для пинга сылки пороверки активности сайта 
             target = input("⟪consol⟫  >>> адрес сайта:")
             print(f"\nПроверяю {target}...")
 
@@ -85,7 +87,7 @@ def main():
             except Exception as e:
                 print(f"⚠️ Ошибка: {e}")
             input("\nНажмите Enter для продолжения...")
-        elif command == "ip_func:": # 3 команда простая для того чтобы узнать IP
+        elif command == "omega:network:": # 3 команда простая для того чтобы узнать IP
             ip = os.system("ipconfig")
             print(ip)
             input("\nНажмите Enter для продолжения...")
@@ -94,7 +96,7 @@ def main():
           
         
         
-        elif command == "top:":
+        elif command == "omega:top:":
             try:
                 result = subprocess.run(["powershell", "-Command", "Get-Process"],capture_output=True,text=True,timeout=10)
                 print(result.stdout)
@@ -112,21 +114,21 @@ def main():
             print()
             input("\nНажмите Enter для продолжения...")
              
-        elif command == "MR.ROBOT":
+        elif command == "p:MR.ROBOT":
             print("\033[92m" + r"""
-             __  __            __ ____   ______   _______      _______   ____________
-            |  \/  |          |   >___| /      \  /       \   /       \  |____    ____|
+             __  __            __ ____   ______   _______       _______     ____________
+            |  \/  |          |   >___| /      \  /       \    /       \   |____    ____|
             | \  / |  _ __    |   |     |      |  |        /   |       |       |  |
             | |\/| | | '__|   |   |     |      |  |========    |       |       |  |
-            | |  | | | |      |   |     |      | |        \   |       |       |  |
+            | |  | | | |      |   |     |      |  |        \   |       |       |  |
             |_|  |_| |_|    * |___|     \______/  |________/   \_______/       |__|        
 
             """ + "\033[0m")
-            webbrowser.open("https://www.bing.com/images/search?view=detailV2&ccid=qx0GhH0i&id=A2D8D7F42FE6509CF17418AD7CB164FC321FC34C&thid=OIP.qx0GhH0ib8UtmCRN3R4P4wHaFj&mediaurl=https%3a%2f%2fm.media-amazon.com%2fimages%2fS%2fpv-target-images%2fd0542d296dd3dbb63bcb56b9b2c1973b21575c011c64750430576ef76d0fb367.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.ab1d06847d226fc52d98244ddd1e0fe3%3frik%3dTMMfMvxksXytGA%26pid%3dImgRaw%26r%3d0&exph=1920&expw=2560&q=mr.robot&FORM=IRPRST&ck=0DCA20174D6B925EED451F0DFD52ECA6&selectedIndex=11&itb=0")
-            webbrowser.open("https://www.bing.com/ck/a?!&&p=9e7072aced5840b75c67eea9b6bf0fbbe8a3455d56e50115c24bf9270238c79aJmltdHM9MTc4MzIwOTYwMA&ptn=3&ver=2&hsh=4&fclid=048dcdd4-8bbb-6f7a-2d43-db6e8af16e0e&psq=mr.robot&u=a1aHR0cHM6Ly9ydXR1YmUucnUvcGxzdC85MTQ4MTcv")
-            input("\nНажмите Enter для продолжения... 5 сезон ? error404 NOT FUND")
+            webbrowser.open("https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%80_%D0%A0%D0%BE%D0%B1%D0%BE%D1%82")
+            webbrowser.open("https://www.bing.com/search?q=mr.robot+netflix&qs=n&sp=-1&lq=0&pq=&sc=0-0&sk=&cvid=2672A84E7C33423EBBAFF9302147D96F&FPIG=B8B4DF0C11604DBA91C3650C8C3B48AE&first=1&FORM=PERE")
+            input("\nНажмите Enter для продолжения... Привет элиот ! Ты нашол пасхалку")
                                                                 
-        elif command == "skript:OS": 
+        elif command == "omega:skript:OS": 
             # Внутри обработки команды "skript:OS"
          base_dir = os.path.dirname(os.path.abspath(__file__))
          target_script = os.path.join(base_dir, "SKRIPT", "skriptOS.py")
@@ -137,7 +139,7 @@ def main():
          else:
             subprocess.Popen([sys.executable, target_script], creationflags=subprocess.CREATE_NEW_CONSOLE)   # ✅ ПРАВИЛЬНО *надеюсь
             print("Скрипт запущен в новом окне!")
-        elif command == "wireshark:":
+        elif command == "github:wireshark:":
             print("⟪consol⟫  >>> |open wireshark|")
             time.sleep(2)
             print("❇️SCANING❇️")
@@ -152,19 +154,17 @@ def main():
                 print("❌wireshark не найден❌.")  
                 print("⚠️УСТАНОВИТЕ WIRESHARK⚠️.") 
             input("\nНажмите Enter для продолжения... ╰(*°▽°*)╯")
-        elif command == "nmap:":
-            print("⟪consol⟫  >>> |open nmap|")
-            print("🔎NMAP🔍")
+        elif command == "omega:omap:":
+            print("⟪consol⟫  >>> |open Omap|")
+            print("🔎OMAP🔍")
             base_dir = os.path.dirname(os.path.abspath(__file__))
-            maper = os.path.join(base_dir, "skript", "Nmap.py")
+            maper = os.path.join(base_dir, "skript", "Omap.py")
             subprocess.run(["python",maper])
         
-        elif command == "vpn:":
+        elif command == "omega:vpn:":
             print("vpn kiler DIP")
             subprocess.run([])
    
-
-    
          
             
 
