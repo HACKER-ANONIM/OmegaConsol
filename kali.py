@@ -1,7 +1,6 @@
 import os
 import time
 import socket
-import requests
 import webbrowser 
 import platform
 import subprocess
