@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://placehold.co/400x200/0d1117/39ff14?text=Omega+Consol&font=monospace" alt="Omega Consol Logo">
+  <img width="1254" height="1254" alt="file_00000000583881f89bf5c1dddda7d96e" src="https://github.com/user-attachments/assets/ac72af03-5179-4ae1-8ed2-8256e991859d" />
+
    
   
   <h1>OmegaConsol♾️</h1>
