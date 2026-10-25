@@ -53,9 +53,10 @@
 
 ### Windows установка
 1) скачайте python: https://www.python.org/downloads/release/python-31012/
-2) скачайте сам проект с github: https://github.com/HACKER-ANONIM/Kali_shell
-3) установите wireshark (если хотите чтоб работала функция wireshark:)
-4) запустите OmegaConsol.ру
+2) скачайте сам проект с github
+3) установи зависимости pip install -r requirements.txt
+4) установите wireshark (если хотите чтоб работала функция wireshark:)
+5) запустите OmegaConsol.ру
 
 ### Внимание програма заточена имено под windows  
 ### Большенство функций особено для взоимодействия с ОС не работуют на Linux 
@@ -64,12 +65,12 @@
 ```bash
 
 # Клонируем репозиторий
-git clone https://github.com/HACKER-ANONIM/Kali_shell.git
-cd Kali_shell
+git clone https://github.com/HACKER-ANONIM/OmegaConsol.git
+cd OmegaConsol
 скачайте python: https://www.python.org/downloads/release/python-31012/
 
-# Устанавливаем зависимости (если есть requirements.txt)
-pip install -r requirements.txt (зависимостей пока нет)
+# Устанавливаем зависимости 
+pip install -r requirements.txt 
 
 # Запускаем главный скрипт
 python OmegaConsol.py
