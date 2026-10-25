@@ -11,6 +11,7 @@
   <img src="https://img.shields.io/badge/PowerShell-Supported-blue.svg" alt="PowerShel">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status">
+  <img src="https://img.shields.io/badge/pentest-brightgreen.svg" alt="pentest">
 </div>
 
 ---
