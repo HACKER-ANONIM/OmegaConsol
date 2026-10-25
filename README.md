@@ -1,14 +1,14 @@
 <div align="center">
-  <img src="https://placehold.co/400x200/0d1117/39ff14?text=Kali+Shell&font=monospace" alt="Kali Shell Logo">
+  <img src="https://placehold.co/400x200/0d1117/39ff14?text=Omega+Consol&font=monospace" alt="Omega Consol Logo">
    
   
-  <h1>Kali Shell 🐉</h1>
+  <h1>OmegaConsol♾️</h1>
   <p><b>Мощная интерактивная оболочка для автоматизации пентеста и сетевых операций.</b></p>
 
 
   <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python">
   <img src="https://img.shields.io/badge/Platform-Kali_Linux-purple.svg" alt="Platform">
-  <img src="https://img.shields.io/badge/Docker-Supported-blue.svg" alt="Docker">
+  <img src="https://img.shields.io/badge/PowerShell-Supported-blue.svg" alt="PowerShel">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status">
   <img src="https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white" alt="Windows 11">
@@ -17,26 +17,31 @@
 ---
 
 ## 📖 О проекте
-**Kali Shell** — это удобный CLI-интерфейс, который объединяет в себе популярные инструменты для пентеста и сетевых манипуляций. Вместо того чтобы запоминать сотни флагов и команд, вы запускаете один скрипт и выбираете нужное действие в интерактивном меню. Проект поддерживает работу с Docker, Heroku и имеет встроенные механизмы блокировки/маршрутизации трафика.
+**OmegaConsol** — это удобный CLI-интерфейс, который объединяет в себе популярные инструменты для пентеста и сетевых манипуляций. Вместо того чтобы запоминать сотни флагов и команд, вы запускаете один скрипт и выбираете нужное действие в интерактивном меню. Проект поддерживает работу с Docker, Heroku и имеет встроенные механизмы блокировки/маршрутизации трафика.
 
 ## ✨ Возможности
-- 🚀 **Nmap:** Быстрый запуск сканирования через встроенный модуль `Nmap.py`.
-- 🛡️ **VPN Killer / Управление IP:** Проверяйте активность ip подключения и узнайте свой ip и другие даные через ping:,nmap:,wireshark:,ip_func: .
-- 🌐 **Proxy Support:** Конфигурации для `shadowsocks-libev` и `nginx`.
+- 🚀 **Omap:** Быстрый запуск сканирования портов через встроенный модуль `Omap.py`.
+- 🛡️ **network:** Праметры  сети  .
+- 🌐 **search:** Поиск по браузеру.
 - ✳️ **skript:OS** контроль ОС
+- 🆔 **ping:** проверка активности ip 
 - 🎨 **Интерактивное меню:** Удобная навигация по командам (`nmap`, `vpn` и др.).
-- VPN ПОКА НЕ РАБОТАЕТ (ЗАГОТОВКА)
-- 🔎**modem:consol** в консоли будут доавлятся запуск других проектов (лежат в папке .github)
+- 🔎**github:** в консоли будут добовлятся запуск других проектов (лежат в папке .github) (не комерческих)
 - ❇️**PENTEST** Ваш помошник в работе с сетью и пентэстом 
 
-## 👁️‍🗨️ Работа nmap:
-<img width="1379" height="761" alt="Снимок экрана 2026-10-05 184011" src="https://github.com/user-attachments/assets/f178c40c-11b5-49cb-9b85-07ec0b607796" />
+## 👁️‍🗨️ Работа omap:
+<img width="1919" height="1022" alt="Снимок экрана 2026-10-25 194802" src="https://github.com/user-attachments/assets/271836de-3253-4194-acc8-fd85456e6c7b" />
+
 
 
 ## ❇️ Работа skript:OS
 <img width="1474" height="754" alt="Снимок экрана 2026-10-05 191240" src="https://github.com/user-attachments/assets/3ec7b12b-d728-484a-851e-97848108d618" />
 
-
+## ⚛️ Синтаксис консоли:
+- **omega:** - свои утилиты
+- **github:** - утилиты с github
+- **corp:** - корпоративные программы (поддерживаются но не распространяются )
+- **p:** - пасхалки
 
 
 ## 🚀 Быстрый старт
@@ -45,10 +50,9 @@
 1) скачайте python: https://www.python.org/downloads/release/python-31012/
 2) скачайте сам проект с github: https://github.com/HACKER-ANONIM/Kali_shell
 3) установите wireshark (если хотите чтоб работала функция wireshark:)
-4) запустите kali.ру
+4) запустите OmegaConsol.ру
 
-### Внимание програма заточена имено под windows как перенос утилит для network с kalli на windows 
-
+### Внимание програма заточена имено под windows  
 ### Большенство функций особено для взоимодействия с ОС не работуют на Linux 
 
 ### Linux установка
@@ -63,4 +67,4 @@ cd Kali_shell
 pip install -r requirements.txt (зависимостей пока нет)
 
 # Запускаем главный скрипт
-python kali.py
+python OmegaConsol.py
