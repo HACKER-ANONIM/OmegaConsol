@@ -7,11 +7,10 @@
 
 
   <img src="https://img.shields.io/badge/Python-3.10+-blue.svg" alt="Python">
-  <img src="https://img.shields.io/badge/Platform-Kali_Linux-purple.svg" alt="Platform">
+  <img src="https://img.shields.io/badge/Platform-Windows11-blue.svg" alt="Platform">
   <img src="https://img.shields.io/badge/PowerShell-Supported-blue.svg" alt="PowerShel">
   <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status">
-  <img src="https://img.shields.io/badge/Windows%2011-%230079d5.svg?style=for-the-badge&logo=Windows%2011&logoColor=white" alt="Windows 11">
 </div>
 
 ---
@@ -28,6 +27,12 @@
 - 🎨 **Интерактивное меню:** Удобная навигация по командам (`nmap`, `vpn` и др.).
 - 🔎**github:** в консоли будут добовлятся запуск других проектов (лежат в папке .github) (не комерческих)
 - ❇️**PENTEST** Ваш помошник в работе с сетью и пентэстом 
+
+
+## 🔬 Главное меню OmegaConsol:
+<img width="1473" height="759" alt="image" src="https://github.com/user-attachments/assets/f119314f-6ef9-478e-9753-8ca32f2f1280" />
+
+
 
 ## 👁️‍🗨️ Работа omap:
 <img width="1919" height="1022" alt="Снимок экрана 2026-10-25 194802" src="https://github.com/user-attachments/assets/271836de-3253-4194-acc8-fd85456e6c7b" />
